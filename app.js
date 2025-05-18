@@ -95,8 +95,6 @@ vless://${UUID}@[2606:4700:9a62:76bb:ab4a:6521:2713:d528]:8443?encryption=none&s
 vless://${UUID}@[2606:4700:83b9:2ccd:f58e:1909:b6a7:d74f]:8443?encryption=none&security=tls&sni=${DOMAIN}&type=ws&host=${DOMAIN}&path=%2F#印度1
 vless://${UUID}@[2606:4700:83b4:2e2f:b4b0:a1b6:b715:5c1d]:8443?encryption=none&security=tls&sni=${DOMAIN}&type=ws&host=${DOMAIN}&path=%2F#印度2
 vless://${UUID}@[2606:4700:83b5:f69:df86:a4f1:9cdb:cd77]:8443?encryption=none&security=tls&sni=${DOMAIN}&type=ws&host=${DOMAIN}&path=%2F#印度3
-
-
 `;
         } else {
             vlessURL = `vless://${UUID}@${DOMAIN}:443?encryption=none&security=tls&sni=${DOMAIN}&type=ws&host=${DOMAIN}&path=%2F#Vl-ws-tls-${NAME}`;
